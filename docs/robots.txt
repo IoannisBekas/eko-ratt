@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ioannisbekas.github.io/eko-ratt/sitemap.xml
