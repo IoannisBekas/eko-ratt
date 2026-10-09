@@ -11,6 +11,7 @@
   <link rel="preload" href="/assets/dm-sans.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="/assets/styles.css">
   <link rel="stylesheet" href="/assets/motion.css">
+  <link rel="stylesheet" href="/assets/collage.css">
   <script defer src="/assets/copy.js"></script>
   <script defer src="/assets/app.js"></script>
   <script defer src="/assets/motion.js"></script>
@@ -139,6 +140,26 @@
       <div class="wrap intro-grid">
         <div><p class="eyebrow handwritten" data-t="intro.eyebrow"></p><h2 data-t="intro.title"></h2></div>
         <div class="intro-text"><p data-t="intro.body"></p><a href="#services" class="text-link"><span data-t="intro.cta"></span><svg class="icon"><use href="#arrow"/></svg></a></div>
+      </div>
+    </section>
+    <section id="financial-clarity" class="collage-section" aria-labelledby="collage-heading">
+      <div class="wrap">
+        <p class="eyebrow collage-label" data-t="collage.sectionLabel"></p>
+        <h2 id="collage-heading" class="sr-only" data-t="collage.sectionHeading"></h2>
+        <div class="collage-grid">
+          <article class="collage-panel motion-scene">
+            <div class="collage-copy"><h3 data-t="collage.panels.0.title"></h3><p class="collage-subtitle" data-t="collage.panels.0.subtitle"></p><p class="collage-description"><span aria-hidden="true">[</span><span data-t="collage.panels.0.description"></span><span aria-hidden="true">]</span></p></div>
+            <div class="collage-art" aria-hidden="true"><div class="collage-drift"><img src="/assets/collage-daily.png" alt="" width="1448" height="1086" loading="lazy" decoding="async"></div></div>
+          </article>
+          <article class="collage-panel motion-scene">
+            <div class="collage-copy"><h3 data-t="collage.panels.1.title"></h3><p class="collage-subtitle" data-t="collage.panels.1.subtitle"></p><p class="collage-description"><span aria-hidden="true">[</span><span data-t="collage.panels.1.description"></span><span aria-hidden="true">]</span></p></div>
+            <div class="collage-art" aria-hidden="true"><div class="collage-drift"><img src="/assets/collage-year.png" alt="" width="1448" height="1086" loading="lazy" decoding="async"></div></div>
+          </article>
+          <article class="collage-panel motion-scene">
+            <div class="collage-copy"><h3 data-t="collage.panels.2.title"></h3><p class="collage-subtitle" data-t="collage.panels.2.subtitle"></p><p class="collage-description"><span aria-hidden="true">[</span><span data-t="collage.panels.2.description"></span><span aria-hidden="true">]</span></p></div>
+            <div class="collage-art" aria-hidden="true"><div class="collage-drift"><img src="/assets/collage-next.png" alt="" width="1448" height="1086" loading="lazy" decoding="async"></div></div>
+          </article>
+        </div>
       </div>
     </section>
     <section id="services" class="services section-pad">

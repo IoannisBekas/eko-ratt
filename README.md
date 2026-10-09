@@ -13,3 +13,5 @@ Motion is in `docs/assets/motion.js` and `motion.css`: word-by-word scroll entra
 The appointment form prepares an email to `Ekorett@gmail.com`. The visitor sends the request in their email application, and Eko-Rätt confirms the appointment. There is no automatic reservation or email-delivery backend.
 
 The original Eko-Rätt logos are included unchanged. DM Sans and Mynerve are bundled with their SIL Open Font License files in `docs/assets`.
+
+Three original grayscale photographic collages introduce everyday bookkeeping, year-end accounts and advisory services. The artwork was generated with the built-in image generation tool and is decorative; the multilingual captions provide all service information. Layout and gentle drift animation are in `docs/assets/collage.css`. Existing pause, visibility and reduced-motion controls apply.

@@ -250,6 +250,27 @@ window.EKO_COPY = {
     "a11y": {
       "skip": "Hoppa till innehåll",
       "language": "Välj språk"
+    },
+    "collage": {
+      "sectionLabel": "EKO-RÄTT I VARDAGEN",
+      "sectionHeading": "Från dagens siffror till nästa steg.",
+      "panels": [
+        {
+          "title": "Ordning i vardagen.",
+          "subtitle": "Löpande bokföring",
+          "description": "Vi hjälper dig med bokföring, löner och fakturering — delarna som håller vardagens ekonomi samlad."
+        },
+        {
+          "title": "Hela året, samlat.",
+          "subtitle": "Bokslut & årsredovisning",
+          "description": "Från avstämningar till årsredovisning. Vi hjälper dig att sammanställa årets siffror och se hur delarna hänger ihop."
+        },
+        {
+          "title": "Ditt nästa steg.",
+          "subtitle": "Rådgivning & skatt",
+          "description": "Ska du starta företag eller se över din ekonomi? Prata med oss om skatt, ekonomisk förvaltning och frågorna framåt."
+        }
+      ]
     }
   },
   "en": {
@@ -464,6 +485,27 @@ window.EKO_COPY = {
     "a11y": {
       "skip": "Skip to content",
       "language": "Choose language"
+    },
+    "collage": {
+      "sectionLabel": "EVERYDAY EKO-RÄTT",
+      "sectionHeading": "From today's numbers to your next step.",
+      "panels": [
+        {
+          "title": "Everyday finances, in order.",
+          "subtitle": "Ongoing bookkeeping",
+          "description": "Help with bookkeeping, payroll and invoicing — bringing the everyday parts of your finances together."
+        },
+        {
+          "title": "The year, brought together.",
+          "subtitle": "Year-end accounts & annual reports",
+          "description": "From reconciliation to annual reports. We help bring together the year's figures and put your finances in context."
+        },
+        {
+          "title": "Your next step.",
+          "subtitle": "Financial & tax advice",
+          "description": "Starting a company or reviewing your finances? Talk to us about tax, financial management and the decisions ahead."
+        }
+      ]
     }
   },
   "el": {
@@ -678,6 +720,27 @@ window.EKO_COPY = {
     "a11y": {
       "skip": "Μετάβαση στο περιεχόμενο",
       "language": "Επιλέξτε γλώσσα"
+    },
+    "collage": {
+      "sectionLabel": "Η EKO-RÄTT ΣΤΗΝ ΚΑΘΗΜΕΡΙΝΟΤΗΤΑ",
+      "sectionHeading": "Από τα σημερινά στοιχεία στο επόμενο βήμα σας.",
+      "panels": [
+        {
+          "title": "Καθημερινά, σε τάξη.",
+          "subtitle": "Τήρηση λογιστικών βιβλίων",
+          "description": "Σας βοηθάμε με την τήρηση βιβλίων, τη μισθοδοσία και την τιμολόγηση, συγκεντρώνοντας τις καθημερινές οικονομικές σας εργασίες."
+        },
+        {
+          "title": "Η εικόνα όλου του έτους.",
+          "subtitle": "Κλείσιμο χρήσης & ετήσιες εκθέσεις",
+          "description": "Από τις συμφωνίες λογαριασμών έως τις ετήσιες εκθέσεις. Σας βοηθάμε να συγκεντρώσετε τα στοιχεία του έτους και να δείτε τη συνολική εικόνα."
+        },
+        {
+          "title": "Το επόμενο βήμα σας.",
+          "subtitle": "Οικονομική & φορολογική συμβουλευτική",
+          "description": "Ξεκινάτε μια εταιρεία ή εξετάζετε τα οικονομικά σας; Μιλήστε μας για τη φορολογία, την οικονομική διαχείριση και τις αποφάσεις που έρχονται."
+        }
+      ]
     }
   },
   "sq": {
@@ -892,6 +955,27 @@ window.EKO_COPY = {
     "a11y": {
       "skip": "Kalo te përmbajtja",
       "language": "Zgjidhni gjuhën"
+    },
+    "collage": {
+      "sectionLabel": "EKO-RÄTT NË PËRDITSHMËRI",
+      "sectionHeading": "Nga shifrat e sotme te hapi juaj i radhës.",
+      "panels": [
+        {
+          "title": "Financat e përditshme, në rregull.",
+          "subtitle": "Kontabilitet i vazhdueshëm",
+          "description": "Ju ndihmojmë me kontabilitetin, pagat dhe faturimin, duke bashkuar pjesët e përditshme të financave tuaja."
+        },
+        {
+          "title": "Pamja e plotë e vitit.",
+          "subtitle": "Mbyllje vjetore & raporte vjetore",
+          "description": "Nga rakordimi te raportet vjetore. Ju ndihmojmë të përmblidhni shifrat e vitit dhe të shihni pamjen e përgjithshme."
+        },
+        {
+          "title": "Hapi juaj i radhës.",
+          "subtitle": "Këshillim financiar & tatimor",
+          "description": "Po hapni një kompani apo po shqyrtoni financat? Flisni me ne për tatimet, menaxhimin financiar dhe vendimet që ju presin."
+        }
+      ]
     }
   }
 };

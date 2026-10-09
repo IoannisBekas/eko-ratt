@@ -54,7 +54,7 @@
     });
   }
 
-  const reveals = 'h1, h2, .intro-text, .section-description, .service-card, .about-copy > p, .benefit, .process-heading > p, .step, .faq-items details, .contact-intro, .contact-book, .contact-details, .map-shell';
+  const reveals = 'h1, h2, .intro-text, .section-description, .collage-panel, .service-card, .about-copy > p, .benefit, .process-heading > p, .step, .faq-items details, .contact-intro, .contact-book, .contact-details, .map-shell';
   const revealObserver = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (!entry.isIntersecting) return;
@@ -66,7 +66,7 @@
 
   function prepare() {
     updateToggle();
-    document.querySelectorAll('main h1, main h2').forEach(heading => {
+    document.querySelectorAll('main h1, main h2:not(.sr-only)').forEach(heading => {
       if (heading.querySelector('.motion-word')) return;
       const fragment = document.createDocumentFragment();
       heading.textContent.split(/(\s+)/).forEach(word => {
@@ -80,7 +80,7 @@
       });
       heading.replaceChildren(fragment);
     });
-    document.querySelectorAll('.service-card, .step, .benefit').forEach(element => {
+    document.querySelectorAll('.service-card, .collage-panel, .step, .benefit').forEach(element => {
       const siblings = [...element.parentElement.children];
       element.dataset.motionDelay = String((siblings.indexOf(element) % 3) * 90);
     });
