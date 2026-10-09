@@ -8,13 +8,39 @@
   <meta name="description" content="Bokföring, deklarationer och rådgivning för företag och privatpersoner. Från Stockholm, för hela Sverige.">
   <link rel="canonical" href="https://ioannisbekas.github.io/eko-ratt/">
   <link rel="icon" href="/eko-ratt/assets/logo-black.png">
+  <style>
+    .site-loader{display:none}.is-loading body{overflow:hidden}.is-loading body>:not(.site-loader):not(script){visibility:hidden}.is-loading .site-loader{display:grid}
+  </style>
+  <script>
+    (() => {
+      const root = document.documentElement;
+      root.classList.add('is-loading');
+      window.EKO_PAGE_READY = new Promise(resolve => {
+        let finished = false;
+        window.ekoFinishLoading = () => {
+          if (finished) return;
+          finished = true;
+          clearTimeout(window.ekoLoadingTimeout);
+          root.classList.remove('is-loading');
+          document.getElementById('main')?.removeAttribute('aria-busy');
+          const overlay = document.getElementById('site-loader');
+          overlay?.classList.add('is-complete');
+          setTimeout(() => overlay?.remove(), 360);
+          resolve();
+        };
+        window.ekoLoadingTimeout = setTimeout(window.ekoFinishLoading, 20000);
+      });
+    })();
+  </script>
   <link rel="preload" href="/eko-ratt/assets/dm-sans.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="/eko-ratt/assets/styles.css?v=footer-center">
   <link rel="stylesheet" href="/eko-ratt/assets/motion.css">
   <link rel="stylesheet" href="/eko-ratt/assets/collage.css">
-  <script defer src="/eko-ratt/assets/copy.js"></script>
+  <link rel="stylesheet" href="/eko-ratt/assets/loader.css">
+  <script defer src="/eko-ratt/assets/copy.js?v=loader-1"></script>
   <script defer src="/eko-ratt/assets/app.js"></script>
-  <script defer src="/eko-ratt/assets/motion.js"></script>
+  <script defer src="/eko-ratt/assets/loader.js"></script>
+  <script defer src="/eko-ratt/assets/motion.js?v=loader-1"></script>
 <meta name="site-base" content="/eko-ratt/">
 <link rel="alternate" hreflang="sv" href="https://ioannisbekas.github.io/eko-ratt/">
 <link rel="alternate" hreflang="en" href="https://ioannisbekas.github.io/eko-ratt/en/">
@@ -27,6 +53,16 @@
 <meta property="og:type" content="website">
 </head>
 <body>
+  <div id="site-loader" class="site-loader">
+    <div class="loader-inner">
+      <p class="loader-brand">EKO-RÄTT AB</p>
+      <div id="loader-progress" class="loader-progress" role="progressbar" aria-labelledby="loader-label" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <svg class="loader-ring" viewBox="0 0 200 200" aria-hidden="true"><circle class="loader-ring-track" cx="100" cy="100" r="93"/><circle class="loader-ring-fill" cx="100" cy="100" r="93" pathLength="100"/></svg>
+        <span id="loader-percent" class="loader-percent" aria-hidden="true">0%</span>
+      </div>
+      <p id="loader-label" class="loader-label" data-t="loader.label">Förbereder din upplevelse</p>
+    </div>
+  </div>
   <a class="skip-link" href="#main" data-t="a11y.skip">Hoppa till innehåll</a>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h16M13 5l7 7-7 7"/></symbol>

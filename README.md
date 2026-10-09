@@ -15,3 +15,5 @@ The appointment form prepares an email to `Ekorett@gmail.com`. The visitor sends
 The original Eko-Rätt logos are included unchanged. DM Sans and Mynerve are bundled with their SIL Open Font License files in `docs/assets`.
 
 Three original grayscale photographic collages introduce everyday bookkeeping, year-end accounts and advisory services. The artwork was generated with the built-in image generation tool and is decorative; the multilingual captions provide all service information. Layout and gentle drift animation are in `docs/assets/collage.css`. Existing pause, visibility and reduced-motion controls apply.
+
+The 0–100% loading screen in `docs/assets/loader.js` and `loader.css` waits for eager image decoding and both fonts before revealing the page and starting its motion. Progress measures completed readiness tasks, rather than download bytes. Failed assets settle and a 20-second bootstrap failsafe prevents permanent blocking; without JavaScript the website remains visible. Google Maps loads independently.

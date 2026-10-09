@@ -271,6 +271,11 @@ window.EKO_COPY = {
           "description": "Ska du starta företag eller se över din ekonomi? Prata med oss om skatt, ekonomisk förvaltning och frågorna framåt."
         }
       ]
+    },
+    "loader": {
+      "label": "Förbereder din upplevelse",
+      "ready": "Klart. Nu börjar vi.",
+      "opening": "Öppnar webbplatsen"
     }
   },
   "en": {
@@ -506,6 +511,11 @@ window.EKO_COPY = {
           "description": "Starting a company or reviewing your finances? Talk to us about tax, financial management and the decisions ahead."
         }
       ]
+    },
+    "loader": {
+      "label": "Preparing your experience",
+      "ready": "Ready. Let's begin.",
+      "opening": "Opening the website"
     }
   },
   "el": {
@@ -741,6 +751,11 @@ window.EKO_COPY = {
           "description": "Ξεκινάτε μια εταιρεία ή εξετάζετε τα οικονομικά σας; Μιλήστε μας για τη φορολογία, την οικονομική διαχείριση και τις αποφάσεις που έρχονται."
         }
       ]
+    },
+    "loader": {
+      "label": "Ετοιμάζουμε την εμπειρία σας",
+      "ready": "Έτοιμο. Ας ξεκινήσουμε.",
+      "opening": "Άνοιγμα της ιστοσελίδας"
     }
   },
   "sq": {
@@ -976,6 +991,11 @@ window.EKO_COPY = {
           "description": "Po hapni një kompani apo po shqyrtoni financat? Flisni me ne për tatimet, menaxhimin financiar dhe vendimet që ju presin."
         }
       ]
+    },
+    "loader": {
+      "label": "Po përgatisim përvojën tuaj",
+      "ready": "Gati. Le të fillojmë.",
+      "opening": "Po hapim faqen"
     }
   }
 };

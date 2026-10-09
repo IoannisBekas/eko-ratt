@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  function startMotion() {
   const root = document.documentElement;
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const finePointer = matchMedia('(hover: hover) and (pointer: fine)');
@@ -122,4 +123,7 @@
   document.addEventListener('eko:render', prepare);
   root.classList.add('motion-ready');
   prepare();
+  }
+  if (window.EKO_PAGE_READY) window.EKO_PAGE_READY.then(startMotion);
+  else startMotion();
 })();
