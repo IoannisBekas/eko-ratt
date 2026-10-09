@@ -244,7 +244,8 @@ window.EKO_COPY = {
       "description": "Redovisning och skatterådgivning. Från Stockholm, för hela Sverige.",
       "rights": "Alla rättigheter förbehållna.",
       "backToTop": "Till toppen",
-      "top": "Till toppen"
+      "top": "Till toppen",
+      "credit": "Webbplats byggd av"
     },
     "a11y": {
       "skip": "Hoppa till innehåll",
@@ -457,7 +458,8 @@ window.EKO_COPY = {
       "description": "Accounting and tax advice. From Stockholm, across Sweden.",
       "rights": "All rights reserved.",
       "backToTop": "Back to top",
-      "top": "Back to top"
+      "top": "Back to top",
+      "credit": "Website built by"
     },
     "a11y": {
       "skip": "Skip to content",
@@ -670,7 +672,8 @@ window.EKO_COPY = {
       "description": "Λογιστικές υπηρεσίες και φορολογική συμβουλευτική. Από τη Στοκχόλμη, για όλη τη Σουηδία.",
       "rights": "Με επιφύλαξη παντός δικαιώματος.",
       "backToTop": "Επιστροφή στην κορυφή",
-      "top": "Επιστροφή στην κορυφή"
+      "top": "Επιστροφή στην κορυφή",
+      "credit": "Κατασκευή ιστοσελίδας από"
     },
     "a11y": {
       "skip": "Μετάβαση στο περιεχόμενο",
@@ -883,7 +886,8 @@ window.EKO_COPY = {
       "description": "Kontabilitet dhe këshillim tatimor. Nga Stokholmi, për të gjithë Suedinë.",
       "rights": "Të gjitha të drejtat të rezervuara.",
       "backToTop": "Kthehu në krye",
-      "top": "Kthehu në krye"
+      "top": "Kthehu në krye",
+      "credit": "Faqja e internetit u ndërtua nga"
     },
     "a11y": {
       "skip": "Kalo te përmbajtja",
